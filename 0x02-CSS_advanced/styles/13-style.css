@@ -14,10 +14,11 @@ body {
 a[href] {
     color: var(--text-color);
     text-decoration: none;
+    font-style: italic;
 }
 
 a[href]:visited {
-    font-style: italic;
+    color: var(--text-color);
 }
 
 a[href]:hover {
